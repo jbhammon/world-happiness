@@ -1,0 +1,21 @@
+img {
+  border: 1px solid #ddd;
+  margin: 0 0 3rem 0;
+  image-orientation: from-image;
+  width: 100%;
+}
+
+.hero-container {
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  background-color: #93358d;
+  color: #ffffff;
+}
+
+.button-row {
+  margin: 2rem 0 2rem 0;
+}
