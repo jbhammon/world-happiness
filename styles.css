@@ -6,14 +6,25 @@ img {
 }
 
 .hero-container {
-  height: 25rem;
+  height: 20rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin-bottom: 5rem;
-  background-color: #93358d;
-  color: #ffffff;
+}
+
+.hero-container h1 {
+  font-weight: bold;
+}
+
+.hero-container-subtext p {
+  font-weight: lighter;
+  font-size: 0.9rem;
+  line-height: 0;
+}
+
+.footer-text {
+  font-weight: lighter;
+  font-size: 0.9rem;
 }
 
 .button-row {
