@@ -96,19 +96,30 @@ let layout = {
   xaxis: {
     range: [0, 156],
     showgrid: false,
+    title: {
+      text: '2017 Happiness Ranking',
+      font: {
+        size: 14,
+      },
+    },
   },
   yaxis: {
     range: [-60, 60],
     showgrid: false,
+    title: {
+      text: 'Ranking Change',
+      font: {
+        size: 14,
+      },
+    },
   },
-  width: 800,
-  height: 200,
+  width: 600,
+  height: 150,
   margin: {
-    l: 30,
-    r: 30,
-    b: 30,
-    t: 30,
-    pad: 10,
+    l: 60,
+    r: 20,
+    b: 40,
+    t: 20,
   },
 };
 

@@ -19,3 +19,8 @@ img {
 .button-row {
   margin: 2rem 0 2rem 0;
 }
+
+.scatter-container {
+  width: 600px;
+  height: 150px;
+}
