@@ -1,7 +1,13 @@
 img {
-  border: 1px solid #ddd;
   margin: 0 0 3rem 0;
   image-orientation: from-image;
+}
+
+.img-border {
+  border: 1px solid #ddd;
+}
+
+.img-hundo {
   width: 100%;
 }
 
