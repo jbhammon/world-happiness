@@ -15,29 +15,29 @@ let region1_generosity = [0.749361407,0.514812113,1.501542702,1.50977223,1.09279
 
 // Asia
 let region2_color = 'rgba(82, 255, 163, 0.7)';
-let region2_countries = ['Taiwan','Japan','South Korea','Hong Kong','China','Mongolia','Singapore','Thailand','Malaysia','Philippines','Indonesia','Vietnam','Myanmar','Cambodia','Pakistan','Bhutan','Nepal','Bangladesh','Sri Lanka','India','Afghanistan'];
-let region2_rankings = [33,51,55,71,79,100,26,32,42,72,81,94,114,129,80,97,99,110,120,122,141];
-let region2_change = [5,-5,-8,1,5,0,-2,2,19,18,-7,-19,15,16,1,-18,22,-1,12,-5,12];
-let region2_happinessScore = [6.421999931,5.920000076,5.837999821,5.472000122,5.272999763,4.954999924,6.572000027,6.423999786,6.084000111,5.429999828,5.262000084,5.073999882,4.545000076,4.168000221,5.269000053,5.011000156,4.961999893,4.607999802,4.440000057,4.315000057,3.79399991];
-let region2_economy = [22.32367718,23.9343777,24.00956639,28.35663027,20.50380883,20.73129933,25.74981228,17.55711098,21.22313275,15.79556615,18.91939521,15.54094587,8.077239689,14.43774146,13.79547397,17.66945443,9.669895251,12.73183594,22.74437232,18.35970423,10.58189846];
-let region2_family = [21.55972233,24.26246302,19.32638704,23.07731889,22.01474425,30.13140785,20.59973155,22.19477745,21.11515468,23.09240543,24.21977725,25.17720459,24.71366165,24.14199347,12.76695167,26.74369332,23.76628953,15.95338048,28.37784619,17.48256285,15.32797416];
-let region2_health = [12.36350424,15.43033546,15.41990585,17.23432756,14.06060183,11.2569827,14.44754095,10.07532769,10.17068404,8.618951562,9.356627008,12.85315341,8.746371009,10.31150147,7.630438014,9.895814739,10.15983055,11.57207155,14.07952306,10.55452169,4.764016428];
-let region2_freedom = [5.628567283,8.540971951,4.417980026,8.972380008,8.966200062,7.954469728,8.366411545,9.031767611,6.61185034,10.77743449,8.424999162,11.25454482,11.31995658,15.19615618,4.464134743,10.00873409,8.873558192,10.38100433,12.63993801,10.89193508,2.79861683];
-let region2_trust = [4.02305322,2.036702136,3.540157131,6.843307468,0.546308407,6.830761558,5.264241929,8.906026293,6.847615424,3.563783225,11.62494447,4.63082492,18.43949718,9.259187801,5.986828921,9.460277993,7.942284855,3.738180543,11.05548549,5.365897704,8.22010913];
-let region2_generosity = [0.99391524,2.76622863,1.083978605,5.37159617,0.432282875,0.664021988,7.064938878,0.492103612,1.078249619,1.829316688,0.2910896,1.727103647,4.154371878,1.634019851,2.359993656,3.459995702,1.470688182,2.684849486,1.658873087,2.13735536,1.61196182];
+let region2_countries = ['Taiwan','Japan','South Korea','Hong Kong','China','Mongolia','Singapore','Thailand','Malaysia','Philippines','Indonesia','Vietnam','Myanmar','Cambodia','Pakistan','Bhutan','Nepal','Bangladesh','Sri Lanka','India','Afghanistan','New Zealand','Australia'];
+let region2_rankings = [33,51,55,71,79,100,26,32,42,72,81,94,114,129,80,97,99,110,120,122,141,8,10];
+let region2_change = [5,-5,-8,1,5,0,-2,2,19,18,-7,-19,15,16,1,-18,22,-1,12,-5,12,1,0];
+let region2_happinessScore = [6.421999931,5.920000076,5.837999821,5.472000122,5.272999763,4.954999924,6.572000027,6.423999786,6.084000111,5.429999828,5.262000084,5.073999882,4.545000076,4.168000221,5.269000053,5.011000156,4.961999893,4.607999802,4.440000057,4.315000057,3.79399991,7.31400013,7.28399992];
+let region2_economy = [22.32367718,23.9343777,24.00956639,28.35663027,20.50380883,20.73129933,25.74981228,17.55711098,21.22313275,15.79556615,18.91939521,15.54094587,8.077239689,14.43774146,13.79547397,17.66945443,9.669895251,12.73183594,22.74437232,18.35970423,10.58189846,19.21938779,20.37911795];
+let region2_family = [21.55972233,24.26246302,19.32638704,23.07731889,22.01474425,30.13140785,20.59973155,22.19477745,21.11515468,23.09240543,24.21977725,25.17720459,24.71366165,24.14199347,12.76695167,26.74369332,23.76628953,15.95338048,28.37784619,17.48256285,15.32797416,21.16755669,20.7309441];
+let region2_health = [12.36350424,15.43033546,15.41990585,17.23432756,14.06060183,11.2569827,14.44754095,10.07532769,10.17068404,8.618951562,9.356627008,12.85315341,8.746371009,10.31150147,7.630438014,9.895814739,10.15983055,11.57207155,14.07952306,10.55452169,4.764016428,11.16707262,11.58548603];
+let region2_freedom = [5.628567283,8.540971951,4.417980026,8.972380008,8.966200062,7.954469728,8.366411545,9.031767611,6.61185034,10.77743449,8.424999162,11.25454482,11.31995658,15.19615618,4.464134743,10.00873409,8.873558192,10.38100433,12.63993801,10.89193508,2.79861683,8.395708492,8.259299679];
+let region2_trust = [4.02305322,2.036702136,3.540157131,6.843307468,0.546308407,6.830761558,5.264241929,8.906026293,6.847615424,3.563783225,11.62494447,4.63082492,18.43949718,9.259187801,5.986828921,9.460277993,7.942284855,3.738180543,11.05548549,5.365897704,8.22010913,6.836274502,6.55819955];
+let region2_generosity = [0.99391524,2.76622863,1.083978605,5.37159617,0.432282875,0.664021988,7.064938878,0.492103612,1.078249619,1.829316688,0.2910896,1.727103647,4.154371878,1.634019851,2.359993656,3.459995702,1.470688182,2.684849486,1.658873087,2.13735536,1.61196182,5.234026459,4.134867289];
 
 // Australia, New Zealand
-let region3_color = 'rgba(148, 48, 255, 0.7)';
-let region3_countries = ['New Zealand','Australia'];
-let region3_rankings = [8,10];
-let region3_change = [1,0];
-let region3_happinessScore = [7.31400013,7.28399992];
-let region3_economy = [19.21938779,20.37911795];
-let region3_family = [21.16755669,20.7309441];
-let region3_health = [11.16707262,11.58548603];
-let region3_freedom = [8.395708492,8.259299679];
-let region3_trust = [6.836274502,6.55819955];
-let region3_generosity = [5.234026459,4.134867289];
+// let region3_color = 'rgba(148, 48, 255, 0.7)';
+// let region3_countries = [];
+// let region3_rankings = [];
+// let region3_change = [];
+// let region3_happinessScore = [];
+// let region3_economy = [];
+// let region3_family = [];
+// let region3_health = [];
+// let region3_freedom = [];
+// let region3_trust = [];
+// let region3_generosity = [];
 
 // Europe
 let region4_color = 'rgba(255, 38, 121, 0.7)';
@@ -164,25 +164,25 @@ let data2 = [
 ];
 Plotly.plot(region2, data2, layout);
 
-region3 = document.getElementById('region3');
-let data3 = [
-  {
-    x: region3_rankings,
-    y: region3_change,
-    mode: 'markers',
-    marker: {
-      size: 10,
-      color: region3_color,
-    },
-    type: 'scatter',
-    text: region3_countries,
-    hovertemplate: '<b>%{text}</b>' +
-                   '<br>Rank: %{x}<br>' +
-                   'Change: %{y}<br>' +
-                   'Value: %{marker.size:.2f,}',
-  }
-];
-Plotly.plot(region3, data3, layout);
+// region3 = document.getElementById('region3');
+// let data3 = [
+//   {
+//     x: region3_rankings,
+//     y: region3_change,
+//     mode: 'markers',
+//     marker: {
+//       size: 10,
+//       color: region3_color,
+//     },
+//     type: 'scatter',
+//     text: region3_countries,
+//     hovertemplate: '<b>%{text}</b>' +
+//                    '<br>Rank: %{x}<br>' +
+//                    'Change: %{y}<br>' +
+//                    'Value: %{marker.size:.2f,}',
+//   }
+// ];
+// Plotly.plot(region3, data3, layout);
 
 region4 = document.getElementById('region4');
 let data4 = [
@@ -268,7 +268,7 @@ Plotly.plot(region7, data7, layout);
 $('#total').click(function() {
   Plotly.restyle(region1, 'marker', {size: 10, color: region1_color,});
   Plotly.restyle(region2, 'marker', {size: 10, color: region2_color,});
-  Plotly.restyle(region3, 'marker', {size: 10, color: region3_color,});
+  // Plotly.restyle(region3, 'marker', {size: 10, color: region3_color,});
   Plotly.restyle(region4, 'marker', {size: 10, color: region4_color,});
   Plotly.restyle(region5, 'marker', {size: 10, color: region5_color,});
   Plotly.restyle(region6, 'marker', {size: 10, color: region6_color,});
@@ -278,7 +278,7 @@ $('#total').click(function() {
 $('#economy').click(function() {
   Plotly.restyle(region1, 'marker', {size: region1_economy, color: region1_color,});
   Plotly.restyle(region2, 'marker', {size: region2_economy, color: region2_color,});
-  Plotly.restyle(region3, 'marker', {size: region3_economy, color: region3_color,});
+  // Plotly.restyle(region3, 'marker', {size: region3_economy, color: region3_color,});
   Plotly.restyle(region4, 'marker', {size: region4_economy, color: region4_color,});
   Plotly.restyle(region5, 'marker', {size: region5_economy, color: region5_color,});
   Plotly.restyle(region6, 'marker', {size: region6_economy, color: region6_color,});
@@ -288,7 +288,7 @@ $('#economy').click(function() {
 $('#family').click(function() {
   Plotly.restyle(region1, 'marker', {size: region1_family, color: region1_color,});
   Plotly.restyle(region2, 'marker', {size: region2_family, color: region2_color,});
-  Plotly.restyle(region3, 'marker', {size: region3_family, color: region3_color,});
+  // Plotly.restyle(region3, 'marker', {size: region3_family, color: region3_color,});
   Plotly.restyle(region4, 'marker', {size: region4_family, color: region4_color,});
   Plotly.restyle(region5, 'marker', {size: region5_family, color: region5_color,});
   Plotly.restyle(region6, 'marker', {size: region6_family, color: region6_color,});
@@ -298,7 +298,7 @@ $('#family').click(function() {
 $('#health').click(function() {
   Plotly.restyle(region1, 'marker', {size: region1_health, color: region1_color,});
   Plotly.restyle(region2, 'marker', {size: region2_health, color: region2_color,});
-  Plotly.restyle(region3, 'marker', {size: region3_health, color: region3_color,});
+  // Plotly.restyle(region3, 'marker', {size: region3_health, color: region3_color,});
   Plotly.restyle(region4, 'marker', {size: region4_health, color: region4_color,});
   Plotly.restyle(region5, 'marker', {size: region5_health, color: region5_color,});
   Plotly.restyle(region6, 'marker', {size: region6_health, color: region6_color,});
@@ -308,7 +308,7 @@ $('#health').click(function() {
 $('#freedom').click(function() {
   Plotly.restyle(region1, 'marker', {size: region1_freedom, color: region1_color,});
   Plotly.restyle(region2, 'marker', {size: region2_freedom, color: region2_color,});
-  Plotly.restyle(region3, 'marker', {size: region3_freedom, color: region3_color,});
+  // Plotly.restyle(region3, 'marker', {size: region3_freedom, color: region3_color,});
   Plotly.restyle(region4, 'marker', {size: region4_freedom, color: region4_color,});
   Plotly.restyle(region5, 'marker', {size: region5_freedom, color: region5_color,});
   Plotly.restyle(region6, 'marker', {size: region6_freedom, color: region6_color,});
@@ -318,7 +318,7 @@ $('#freedom').click(function() {
 $('#generosity').click(function() {
   Plotly.restyle(region1, 'marker', {size: region1_generosity, color: region1_color,});
   Plotly.restyle(region2, 'marker', {size: region2_generosity, color: region2_color,});
-  Plotly.restyle(region3, 'marker', {size: region3_generosity, color: region3_color,});
+  // Plotly.restyle(region3, 'marker', {size: region3_generosity, color: region3_color,});
   Plotly.restyle(region4, 'marker', {size: region4_generosity, color: region4_color,});
   Plotly.restyle(region5, 'marker', {size: region5_generosity, color: region5_color,});
   Plotly.restyle(region6, 'marker', {size: region6_generosity, color: region6_color,});
@@ -328,7 +328,7 @@ $('#generosity').click(function() {
 $('#trust').click(function() {
   Plotly.restyle(region1, 'marker', {size: region1_trust, color: region1_color,});
   Plotly.restyle(region2, 'marker', {size: region2_trust, color: region2_color,});
-  Plotly.restyle(region3, 'marker', {size: region3_trust, color: region3_color,});
+  // Plotly.restyle(region3, 'marker', {size: region3_trust, color: region3_color,});
   Plotly.restyle(region4, 'marker', {size: region4_trust, color: region4_color,});
   Plotly.restyle(region5, 'marker', {size: region5_trust, color: region5_color,});
   Plotly.restyle(region6, 'marker', {size: region6_trust, color: region6_color,});
